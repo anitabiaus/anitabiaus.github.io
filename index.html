@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a0517b5d53.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilocv.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <!--Seccion Inicio-->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+        <header>
+            <div class="nav-bar" i class="fa-solid fa bars"></i>
+            </div>
+            <nav id="nav" class="nav">
+                <a href="#sobremi">Sobre Mi</a>
+                <a href="#educacion">Educación</a>
+                <a href="#experiencia">Experiencia Laboral</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            </div>
+        </header>
+
+        <div id="presentacion">
+            <div class="info">
+                <h1> Kay Hamilton</h1>
+                <h2> Ingeniera agrónoma</h2>
+            </div>
+
+            <div class="foto">
+                <img class="foto-imagen" src="https://randomuser.me/api/portraits/women/10.jpg">
+            </div>
+
+            <p id="datocontacto"></p>
+    
+            <div class="medioscontacto" id="mediosdecontacto">
+                <a href="#"><i id="telefono" class="mediodecontacto  fa-solid fa-phone"></i></a>
+                <a href="#"><i id="mail" class="mediodecontacto fa-solid fa-envelope"></i></a>
+                <a href="#"><i id="direccion" class="mediodecontacto  fa-solid fa-location-dot"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Seccion Sobre  Mi-->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre mi</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac mattis elit, eleifend porta sem. Donec
+                at
+                eleifend arcu. Morbi sagittis tortor sed mollis pharetra. Curabitur augue quam, eleifend sit amet ipsum
+                et,
+                feugiat varius velit. Donec sed sem ipsum. Maecenas lacinia risus ex, blandit faucibus augue interdum
+                ac.
+                Nulla mattis, justo sagittis laoreet semper, lorem metus laoreet mauris, nec facilisis ligula mauris a
+                sem.
+                Sed fermentum dolor nec nisl tempus tempus.</p>
+
+            <!--Seccion Educación-->
+            <section class="educacion" id="educacion">
+                <div class="contenido-seccion">
+                    <h2 class="titulo-seccion">Educación</h2>
+                    <h3>Grado</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Posgrado</h3>
+                    <p>Maecenas dictum lacus eu libero viverra tincidunt.</p>
+
+                    <!--Seccion Experiencia laboral-->
+                    <section class="experiencia" id="experiencia">
+                        <div class="contenido-seccion">
+                            <h2 class="titulo-seccion">Experiencia Laboral</h2>
+
+                            <h3>Trabajo 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod neque sit amet
+                                semper
+                                ullamcorper. Sed vitae placerat mi, sit amet tempus magna. Fusce dapibus, lorem ac
+                                aliquet sodales,
+                                leo neque sodales odio, at molestie est tellus nec nunc</p>
+                        </div>
+
+                        <h3>Trabajo 2</h3>
+                        <p>Sed dignissim, risus vitae ultrices congue, nisi odio euismod risus, porttitor mattis libero
+                            arcu sit
+                            amet nibh. Vestibulum vitae augue vulputate, rutrum elit et, consectetur elit. Donec eu mi
+                            rutrum,
+                            aliquet mi eu, lacinia sem. Vestibulum convallis massa id tristique vehicula.</p>
+                </div>
+
+
+                <h3>Trabajo 3</h3>
+                <p>Aenean nisi sem, elementum vitae mi scelerisque, dignissim molestie purus. Cras metus est, posuere
+                    vitae molestie vitae, mattis sit amet ligula. Ut pulvinar eu enim sed volutpat. Suspendisse non
+                    convallis metus.</p>
+        </div>
+
+        <!--Seccion Contacto-->
+        <section id="contacto"></section>
+        <h2>Contacto</h2>
+        <form>
+
+            <div>
+                <label>Nombre</label>
+                <input type="text" placeholder="Escribe tu nombre">
+            </div>
+
+            <div>
+                <label>Asunto</label>
+                <input type="text" placeholder="Escribe el asunto">
+            </div>
+
+            <div>
+                <label>Mensaje</label>
+                <textarea>Escribe tu mensaje</textarea>
+            </div>
+
+
+            <button type="button" id="boton">Enviar</button>
+
+            <script src="js/functioncv.js"></script>
+
+
+        </form>
+
+        </header>
+
+        <script src="functioncv.js"></script>
+</body>
+
+</html>

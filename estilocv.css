@@ -1,0 +1,149 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    font-family:'Roboto', sans-serif;
+    box-sizing:border-box;
+}
+
+body {
+    padding: 100;
+}
+
+ /* seccion inicio*/
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(47, 167, 173)
+}
+
+#presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mediosdecontacto {
+    margin-top: 20px;
+}
+
+.mediodecontacto {
+    margin: 0 10px;
+}
+
+.inicio {
+    padding: 0px 20px 20px;
+}
+
+.inicio .foto{
+    max-width: 200px;
+    border-radius: 30%;
+    border: 20px solid #407aaa;
+}
+
+.inicio .foto .foto-imagen{
+    border-radius: 30%;
+}
+
+.inicio.info.h2{
+    padding: 200px 20 px 20px;
+   text-align: center;
+}
+
+
+/* seccion sobre mi*/
+.sobremi{
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+}
+
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+
+}
+
+.sobremi.contenido-seccion h2 {
+
+}
+
+.sobremi.contenido-seccion h3{
+text-transform: uppercase;
+font-size: 10px;
+}
+
+/*seccion educacion*/
+.educacion{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+
+
+}
+
+.educacion.contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.educacion.contenido-seccion.h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.educacion.contenido-seccion.h3{
+    text-transform: uppercase;
+    font-size: 10px;  
+}
+
+/*seccion experiencia*/
+.experiencia_laboral{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+
+}
+
+.experiencia_laboral.educacion.contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.experiencia_laboral.educacion.contenido-seccion.educacion.contenido-seccion.h2{
+    text-transform: uppercase;
+    font-size: 30px;  
+}
+
+.experiencia_laboral.educacion.contenido-seccion.educacion.contenido-seccion.h3{
+    text-transform: uppercase;
+    font-size: 10px;  
+}
+
+/*seccion contacto*/
+.formulario{
+
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(47, 167, 173);
+    background-position: center center;
+    border: 1px;
+}
+
+
